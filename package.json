@@ -1,0 +1,29 @@
+{
+  "name": "docker-git-semantic-last-release",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Evan Sherwood <evan@sherwood.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^4.0.0",
+    "@semantic-release/error": "^2.1.0",
+    "@semantic-release/release-notes-generator": "^5.0.2",
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "execa": "^0.8.0",
+    "get-stream": "^3.0.0",
+    "git-head": "^1.20.1",
+    "git-log-parser": "^1.2.0",
+    "github": "^12.0.2",
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0",
+    "parse-github-repo-url": "^1.4.1",
+    "semver": "^5.4.1"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "prettier-standard": "^7.0.3",
+    "standard": "^10.0.3"
+  }
+}
